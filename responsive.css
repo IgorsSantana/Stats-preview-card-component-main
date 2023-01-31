@@ -1,0 +1,45 @@
+@media screen and (max-width: 1250px) {
+    .box {
+        width: 300px;
+        height: 650px;
+        display: block;
+        margin-top: -325px;
+        margin-left: -150px;
+    }
+    .texts h1 {
+        font-size: 20px;
+        margin: 40px 30px 0 30px;
+        text-align: center;
+    }
+    .texts h2 {
+        font-size: 14px;
+        margin: 10px 30px 0 30px;
+        text-align: center;
+        line-height: 20px;
+    }
+    .infos {
+        display: block;
+        margin: 40px 0;
+    }
+    .infos h3 {
+        padding: 0;
+        margin: 10px 0;
+        text-align: center;
+        line-height: 22px;
+    }
+    .image {
+        border-top-left-radius: 10px;
+    }
+    .image .image-desktop {
+        display: none;
+    }
+    .image .image-mobile {
+        display: block;
+        width: 300px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 10px;
+        mix-blend-mode: multiply;
+        opacity: 60%;
+    }
+}
